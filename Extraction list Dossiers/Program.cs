@@ -74,8 +74,8 @@ namespace Extraction_list_Dossiers
                 drawTextProgressBar(row - 1, doss_inds.Count());
                 row++;
             }
-            
 
+            xlApp.DisplayAlerts = false;
             xlWorkBook.SaveAs(path, XlFileFormat.xlOpenXMLWorkbook, misValue, misValue, misValue, misValue,
                 XlSaveAsAccessMode.xlExclusive, misValue, misValue, misValue, misValue, misValue);
             xlWorkBook.Close();
@@ -97,10 +97,10 @@ namespace Extraction_list_Dossiers
             //draw empty progress bar
             Console.CursorLeft = 0;
             Console.Write("["); //start
-            Console.CursorLeft = 32;
+            Console.CursorLeft = 62;
             Console.Write("]"); //end
             Console.CursorLeft = 1;
-            float onechunk = 30.0f / total;
+            float onechunk = 60.0f / total;
 
             //draw filled part
             int position = 1;
@@ -112,7 +112,7 @@ namespace Extraction_list_Dossiers
             }
 
             //draw unfilled part
-            for (int i = position; i <= 31 ; i++)
+            for (int i = position; i <= 61 ; i++)
             {
                 Console.BackgroundColor = ConsoleColor.Green;
                 Console.CursorLeft = position++;
@@ -120,7 +120,7 @@ namespace Extraction_list_Dossiers
             }
 
             //draw totals
-            Console.CursorLeft = 35;
+            Console.CursorLeft = 65;
             Console.BackgroundColor = ConsoleColor.Black;
             Console.Write(progress.ToString() + " of " + total.ToString() + "    "); //blanks at the end remove any excess
         }
