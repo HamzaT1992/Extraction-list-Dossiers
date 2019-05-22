@@ -1,0 +1,8 @@
+c:\users\administrateur\documents\visual studio 2010\Projects\Extraction list Dossiers\Extraction list Dossiers\bin\Release\Extraction list Dossiers.exe
+c:\users\administrateur\documents\visual studio 2010\Projects\Extraction list Dossiers\Extraction list Dossiers\bin\Release\Extraction list Dossiers.pdb
+c:\users\administrateur\documents\visual studio 2010\Projects\Extraction list Dossiers\Extraction list Dossiers\bin\Release\Microsoft.Office.Interop.Excel.dll
+c:\users\administrateur\documents\visual studio 2010\Projects\Extraction list Dossiers\Extraction list Dossiers\bin\Release\office.dll
+c:\users\administrateur\documents\visual studio 2010\Projects\Extraction list Dossiers\Extraction list Dossiers\bin\Release\Microsoft.Office.Interop.Excel.xml
+c:\users\administrateur\documents\visual studio 2010\Projects\Extraction list Dossiers\Extraction list Dossiers\bin\Release\office.xml
+c:\users\administrateur\documents\visual studio 2010\Projects\Extraction list Dossiers\Extraction list Dossiers\obj\x86\Release\Extraction list Dossiers.exe
+c:\users\administrateur\documents\visual studio 2010\Projects\Extraction list Dossiers\Extraction list Dossiers\obj\x86\Release\Extraction list Dossiers.pdb
