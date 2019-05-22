@@ -71,14 +71,13 @@ namespace Extraction_list_Dossiers
             {
                 xlWorkSheet.Cells[row, 1] = dos_ind[0];
                 xlWorkSheet.Cells[row, 2] = dos_ind[1];
-                drawTextProgressBar(row - 2, doss_inds.Count());
+                drawTextProgressBar(row - 1, doss_inds.Count());
                 row++;
             }
             
 
             xlWorkBook.SaveAs(path, XlFileFormat.xlOpenXMLWorkbook, misValue, misValue, misValue, misValue,
                 XlSaveAsAccessMode.xlExclusive, misValue, misValue, misValue, misValue, misValue);
-            Console.WriteLine("Enregistrement...");
             xlWorkBook.Close();
             xlApp.Quit();
 
